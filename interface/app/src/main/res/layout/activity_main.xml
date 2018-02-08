@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mirzamubashir.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_heading"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#4689C8"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/album_description_view"
+        android:layout_width="347dp"
+        android:layout_height="43dp"
+        android:hint="@string/album_description"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <CheckBox
+        android:id="@+id/notify_me_checkbox"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:text="@string/notify_me"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Switch
+        android:id="@+id/backup_photos_switch"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/auto_backup_photos"
+        android:textAppearance="?android:textAppearanceSmall"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="294dp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="377dp"
+        android:layout_height="55dp"
+        android:text="@string/next"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="?android:progressBarStyle"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <SearchView
+        android:id="@+id/search_viewr"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/search_photos"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>

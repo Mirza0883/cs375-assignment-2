@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_heading">My 1st app</string>
+    <string name="album_description">Enter data</string>
+    <string name="notify_me">I agree</string>
+    <string name="auto_backup_photos">ON</string>
+    <string name="next">Login</string>
+    <string name="search_photos">Search</string>
+</resources>
